@@ -1,0 +1,11 @@
+.TestimonialCard{
+    border-radius:10px ;
+    margin-bottom: 30px;
+}
+.dark-bg{
+    background-color: #384BFF !important;
+    color: white;
+}
+.text-sec{
+    color: white !important;
+}

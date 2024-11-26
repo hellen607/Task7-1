@@ -1,0 +1,23 @@
+.logo img {
+  height: 50px;
+}
+
+nav a {
+  color: black;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.quote-button {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.services-titlte {
+  width: 40%;
+}
+.cards {
+  margin-top: 150px !important;
+}
+.icon {
+  font-size: 2.5rem;
+}
+.btn-arrow {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f3f7fb;
+  border-radius: 30px;
+  border: 2px solid #dfe5ff;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-btn {
+  border-radius: 30px;
+  color: rgb(85, 85, 85);
+}
+
+.text-primary {
+  color: #3b82f6;
+}
+
+@media (max-width: 768px) {
+  .services-titlte {
+    width: 100%;
+  }
+
+  .cards .row > div {
+    display: none;
+  }
+
+  .cards .row > div:nth-child(3) {
+    display: block;
+  }
+}

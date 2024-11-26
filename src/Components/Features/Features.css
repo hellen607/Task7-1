@@ -1,0 +1,17 @@
+.btn-arrow,
+.btn-primary {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .FeaturesCards .col-md-4:nth-child(2),
+    .FeaturesCards .col-md-4:nth-child(3) {
+        display: none;
+    }
+    .Features{
+        margin-bottom: 250px;
+    }
+}
+

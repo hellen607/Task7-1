@@ -1,0 +1,39 @@
+.video {
+  position: relative;
+  margin-top: 500px;
+  height: max-content;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #18185e;
+}
+
+.video-iframe {
+  position: absolute;
+  width: 85%;
+  top: -400px;
+  left: 50%;
+  transform: translate(-50%);
+  height: 500px;
+  border-radius: 30px;
+  border: none;
+  z-index: 1;
+}
+
+.number {
+  font-size: 45px;
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.5);
+}
+
+.two {
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+  .video {
+    padding: 100px 10px;
+  }
+}

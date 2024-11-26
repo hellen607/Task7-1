@@ -1,0 +1,42 @@
+
+.FeaturesCard {
+    position: relative;
+    width: 100%; 
+    max-width: 350px; 
+    margin-bottom: 500px;
+}
+
+.feature {
+    width: 100%;
+    max-width: 340px;
+}
+
+.FeaturesCard-card {
+    left: 10%; 
+    top: 200px;
+    width: 80%; 
+    max-width: 290px;
+    border: none;
+    border-radius: 10px;
+}
+
+.badge, .category {
+    border-radius: 30px;
+}
+
+@media (max-width: 767px) {
+    .FeaturesCard {
+        margin-bottom: 20px; 
+    }
+
+    .FeaturesCard-card {
+        left: 5%;
+        top: 150px; 
+        width: 90%;
+        max-width: none;
+    }
+    .FeaturesCard-card{
+        z-index: -1;
+margin-top: 25px;
+    }
+}

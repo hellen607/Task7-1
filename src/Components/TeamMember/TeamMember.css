@@ -1,0 +1,56 @@
+.team-members-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 50px 0;
+  }
+  .member-btn{
+    border-radius: 30px;
+    color: white;
+  }
+  .envato-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .envato-title .line{
+    width: 450px;
+    height: 2px;
+    background-color: #F0F3FF;
+  }
+  .envato-title h3{
+    font-size: 20px;
+    padding: 0 20px;
+  }
+  .flex-list-brand{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.flex-list-brand li{
+    margin:20px 40px;
+}
+.flex-list-brand li img{
+    width: 120px;
+}
+.flex-list-brand li {
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .line{
+    display: none;
+  }
+  .flex-list-brand li {
+    display: none;
+  }
+
+  .flex-list-brand li:nth-child(3) {
+    display: inline-block;
+  }
+}

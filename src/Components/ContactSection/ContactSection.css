@@ -1,0 +1,141 @@
+.contact-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.info-section {
+  flex: 1;
+  background-color: #3a58fc;
+  color: #fff;
+  border-radius: 15px;
+  display: flex;
+
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-item {
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom-color: rgba(255, 255, 255, 0.282) !important;
+}
+
+.contact-icon {
+  background-color: #3a58fc !important;
+  border: 2px dashed rgba(255, 255, 255, 0.659);
+  padding: 15px;
+  font-size: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+.label {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+
+
+}
+
+.contact-video {
+  width: 100%;
+  height: 100%;
+
+}
+
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.name,
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border-right: 4px solid #3A58FC;
+  min-height: 100px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #3a58fc;
+  color: #fff;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 100%;
+ padding: 20px;
+  }
+}

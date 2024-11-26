@@ -1,0 +1,100 @@
+.feedBack {
+    margin-top: 200px;
+    position: relative;
+    height: max-content;
+    background-color: #F2F6FE;
+}
+
+.Feedback-Card {
+    display: flex;
+    gap: 30px;
+
+}
+
+.wavy {
+    position: absolute;
+    top: -110px;
+    right: 0px;
+    z-index: 11111111;
+}
+
+.experts {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 78%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px 30px;
+    margin: 100px 0;
+    position: absolute;
+    background-color: #384BFF;
+}
+
+.experts .expert-img {
+    width: 200px;
+}
+
+.experts .expert-btn {
+    height: 50px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.client-feedback {
+    padding: 130px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-feed {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.client-feedback .shape {
+    width: 300px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #EBEDFF;
+}
+
+.client-feedback .shape2 {
+    height: 20px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #384BFF;
+}
+
+.dark-card {
+    background-color: #384BFF;
+}
+
+@media (max-width: 768px) {
+    .experts{
+        width: 95%;
+        justify-content: flex-start;
+    }
+    .Feedback-Card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .first-card,
+    .third-card {
+        display: none;
+    }
+
+    .second-card {
+        display: block;
+        margin: 0 auto;
+    }
+}

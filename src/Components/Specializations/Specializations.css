@@ -1,0 +1,15 @@
+.flex-list li {
+    display: inline-block;
+  }
+  
+  @media (max-width: 600px) {
+    .flex-list li {
+      display: none;
+    }
+  
+    .flex-list li:first-child {
+      display: inline-block;
+      font-size: 24px;
+    }
+  }
+  

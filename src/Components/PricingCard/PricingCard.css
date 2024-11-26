@@ -1,0 +1,26 @@
+.PricingCard {
+    width: 86%;
+}
+
+.card-top {
+    background-color: #18185E;
+
+}
+
+.card-plan-btn {
+    background-color: #18185E;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.second-style .card-top {
+    background-color: #384BFF;
+
+}
+
+.second-style .card-plan-btn {
+    background-color: white;
+    color: #384BFF;
+
+}

@@ -1,0 +1,14 @@
+.brands {
+  height: 100px;
+}
+
+.brand {
+  width: 200px;
+  margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .brand {
+    display: none;
+  }
+}
